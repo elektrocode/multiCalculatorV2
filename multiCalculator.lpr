@@ -1,0 +1,5 @@
+program multiCalculator;
+
+begin
+end.
+
