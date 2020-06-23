@@ -8,18 +8,18 @@
       <Unit0>
         <Filename Value="multiCalculator.lpr"/>
         <IsPartOfProject Value="True"/>
-        <TopLine Value="78"/>
-        <CursorPos Y="107"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="55"/>
+        <CursorPos X="37" Y="80"/>
         <UsageCount Value="31"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
         <Filename Value="..\..\..\..\..\Github\menuTemplate\menuTemplate.pas"/>
         <UnitName Value="multiCalculator"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="39" Y="3"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit1>
     </Units>
     <JumpHistory Count="16" HistoryIndex="15">
