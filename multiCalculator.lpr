@@ -34,13 +34,14 @@ begin
   {initialise variables}
   val1 := 0;
   val2 := 0;
+  sum := 0;
 
   writeln('This is the Addition screen');
 
-  writeln('Please enter your first value');
+  writeln('Please enter your first value: ');
   readln(val1);
 
-  writeln('Please enter your second value');
+  writeln('Please enter your second value: ');
   readln(val2);
 
   sum := val1 + val2;
@@ -51,9 +52,27 @@ begin
 end;
 
 procedure subtraction;
+var
+  val1, val2, sum : Integer;
 begin
   clrscr;
+
+  val1 := 0;
+  val2 := 0;
+  sum := 0;
+
   writeln('This is the Subtraction screen');
+
+  writeln('Please enter your first value: ');
+  readln(val1);
+
+  writeln('Please enter your second value: ');
+  readln(val2);
+
+  sum := val1 - val2;
+
+  writeln('Answer: ', val1, ' - ', val2, ' = ', sum);
+
   readln;
 end;
 
