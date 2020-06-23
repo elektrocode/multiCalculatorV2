@@ -77,9 +77,27 @@ begin
 end;
 
 procedure multiplication;
+var
+  val1, val2, sum : Integer;
 begin
   clrscr;
+
+  val1 := 0;
+  val2 := 0;
+  sum := 0;
+
   writeln('This is the Multiplication screen');
+
+  writeln('Please enter your first value: ');
+  readln(val1);
+
+  writeln('Please enter your second value: ');
+  readln(val2);
+
+  sum := val1 * val2;
+
+  writeln('Answer: ', val1, ' X ', val2, ' = ', sum);
+
   readln;
 end;
 
