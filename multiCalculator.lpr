@@ -102,9 +102,27 @@ begin
 end;
 
 procedure division;
+var
+  val1, val2, sum : Integer;
 begin
   clrscr;
+
+  val1 := 0;
+  val2 := 0;
+  sum := 0;
+
   writeln('This is the Division screen');
+
+  writeln('Please enter your first value: ');
+  readln(val1);
+
+  writeln('Please enter your second value: ');
+  readln(val2);
+
+  sum := val1 div val2;
+
+  writeln('Answer: ', val1, ' / ', val2, ' = ', sum);
+
   readln;
 end;
 
