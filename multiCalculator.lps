@@ -9,9 +9,9 @@
         <Filename Value="multiCalculator.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="79"/>
-        <CursorPos X="56" Y="86"/>
-        <UsageCount Value="31"/>
+        <TopLine Value="25"/>
+        <CursorPos X="22" Y="29"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -22,7 +22,7 @@
         <UsageCount Value="10"/>
       </Unit1>
     </Units>
-    <JumpHistory Count="16" HistoryIndex="15">
+    <JumpHistory Count="18" HistoryIndex="17">
       <Position1>
         <Filename Value="multiCalculator.lpr"/>
         <Caret Line="41" Column="98" TopLine="15"/>
@@ -87,6 +87,14 @@
         <Filename Value="multiCalculator.lpr"/>
         <Caret Line="81" Column="45" TopLine="65"/>
       </Position16>
+      <Position17>
+        <Filename Value="multiCalculator.lpr"/>
+        <Caret Line="48" Column="53" TopLine="23"/>
+      </Position17>
+      <Position18>
+        <Filename Value="multiCalculator.lpr"/>
+        <Caret Line="29" Column="13" TopLine="14"/>
+      </Position18>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
