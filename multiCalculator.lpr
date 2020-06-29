@@ -23,6 +23,20 @@ begin
    name:= expression;
 end;}
 
+procedure quit;
+begin
+  writeln;
+  writeln('Press <Enter> to quit the program...');
+  readln;
+  halt;
+end;
+
+procedure error;
+begin
+  writeln('Incorrect Input. Press <Enter> to try again');
+  writeln;
+end;
+
 procedure addition;
 {local declaration(s)}
 var
@@ -38,11 +52,25 @@ begin
 
   writeln('This is the Addition screen');
 
-  writeln('Please enter your first value: ');
-  readln(val1);
+  repeat
+    repeat
+      writeln('Please enter your first value: ');
+      readln(val1);
+      if ((val1 < -2147483647) or (val1 > 2147483646)) then
+      begin
+        error;
+      end
+    until ((val1 >= -2147483647) and (val1 <= 2147483646));
 
-  writeln('Please enter your second value: ');
-  readln(val2);
+    repeat
+      writeln('Please enter your second value: ');
+      readln(val2);
+      if ((val2 < -2147483647) or (val2 > 2147483646)) then
+      begin
+        error;
+      end;
+    until ((val2 >= -2147483647) and (val2 <= 2147483646));
+  until (((val1 >= -2147483647) or (val1 <= 2147483646)) and ((val2 >= -2147483647) or (val2 <= 2147483646)));
 
   sum := val1 + val2;
 
@@ -126,24 +154,10 @@ begin
   readln;
 end;
 
-procedure quit;
-begin
-  writeln;
-  writeln('Press <Enter> to quit the program...');
-  readln;
-  halt;
-end;
-
-procedure error;
-begin
-  writeln('Incorrect Input. Press <Enter> to try again');
-  writeln;
-end;
-
 procedure menu; { procedure declarations, if any}
 { local variables }
 var
-  optionSelectO : Char;  {Ordinal Type}
+  optionSelect_Ord : Char;  {Ordinal Type}
   optionSelect : Integer;
 
 begin
@@ -164,9 +178,9 @@ begin
 
     writeln;
     write('Please select an option: ');
-    readln(optionSelectO);
+    readln(optionSelect_Ord);
     writeln;
-    optionSelect := (Ord(optionSelectO) - 48);
+    optionSelect := (Ord(optionSelect_Ord) - 48);
 
     case optionSelect of
       1: addition;
