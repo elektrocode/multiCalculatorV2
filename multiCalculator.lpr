@@ -2,6 +2,8 @@ program multiCalculator;
 {Referenced in Pascal Book. This is a compiler directive}
 {$APPTYPE CONSOLE}
 
+{$OVERFLOWCHECKS ON}
+
 {comma delimited names of libraries you use}
 uses crt, sysutils;
 
@@ -40,7 +42,8 @@ end;
 procedure addition;
 {local declaration(s)}
 var
-  val1, val2, sum : Integer;
+  val1, val2 : Integer;
+  sum : Int64;
 begin
   {clear previous screen before displaying anything new}
   clrscr;
