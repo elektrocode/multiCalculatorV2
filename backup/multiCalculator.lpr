@@ -2,6 +2,8 @@ program multiCalculator;
 {Referenced in Pascal Book. This is a compiler directive}
 {$APPTYPE CONSOLE}
 
+{$OVERFLOWCHECKS ON}
+
 {comma delimited names of libraries you use}
 uses crt, sysutils;
 
@@ -40,7 +42,8 @@ end;
 procedure addition;
 {local declaration(s)}
 var
-  val1, val2, sum : Integer;
+  val1, val2 : Integer;
+  sum : Int64;
 begin
   {clear previous screen before displaying anything new}
   clrscr;
@@ -56,7 +59,7 @@ begin
     repeat
       writeln('Please enter your first value: ');
       readln(val1);
-      if ((val1 < -2147483647) or (val1 > 2147483646)) then
+      if ((val1 < -2147483648) or (val1 > 2147483647)) then
       begin
         error;
       end
@@ -71,8 +74,6 @@ begin
       end;
     until ((val2 >= -2147483647) and (val2 <= 2147483646));
   until (((val1 >= -2147483647) or (val1 <= 2147483646)) and ((val2 >= -2147483647) or (val2 <= 2147483646)));
-
-
 
   sum := val1 + val2;
 

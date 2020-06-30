@@ -9,9 +9,8 @@
         <Filename Value="multiCalculator.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="54"/>
-        <CursorPos Y="74"/>
-        <UsageCount Value="44"/>
+        <CursorPos X="107" Y="33"/>
+        <UsageCount Value="45"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -25,123 +24,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="24" Column="15" TopLine="11"/>
+        <Caret Line="37" Column="11" TopLine="22"/>
       </Position1>
       <Position2>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="37" Column="11" TopLine="22"/>
+        <Caret Line="43" Column="23" TopLine="29"/>
       </Position2>
       <Position3>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="43" Column="23" TopLine="29"/>
+        <Caret Line="28" Column="25" TopLine="13"/>
       </Position3>
       <Position4>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="28" Column="25" TopLine="13"/>
+        <Caret Line="66" Column="29" TopLine="54"/>
       </Position4>
       <Position5>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="66" Column="29" TopLine="54"/>
+        <Caret Line="78" TopLine="65"/>
       </Position5>
       <Position6>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="78" TopLine="65"/>
+        <Caret Line="81" Column="45" TopLine="65"/>
       </Position6>
       <Position7>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="81" Column="45" TopLine="65"/>
+        <Caret Line="48" Column="53" TopLine="23"/>
       </Position7>
       <Position8>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="48" Column="53" TopLine="23"/>
+        <Caret Line="29" Column="13" TopLine="14"/>
       </Position8>
       <Position9>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="29" Column="13" TopLine="14"/>
+        <Caret Line="45" Column="23" TopLine="37"/>
       </Position9>
       <Position10>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="45" Column="23" TopLine="37"/>
+        <Caret Line="173" Column="39" TopLine="154"/>
       </Position10>
       <Position11>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="173" Column="39" TopLine="154"/>
+        <Caret Line="46" Column="23" TopLine="32"/>
       </Position11>
       <Position12>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="46" Column="23" TopLine="32"/>
+        <Caret Line="45" Column="49" TopLine="31"/>
       </Position12>
       <Position13>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="45" Column="49" TopLine="31"/>
+        <Caret Line="65" Column="67" TopLine="34"/>
       </Position13>
       <Position14>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="65" Column="67" TopLine="34"/>
+        <Caret Line="54" Column="35" TopLine="31"/>
       </Position14>
       <Position15>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="54" Column="35" TopLine="31"/>
+        <Caret Line="50" Column="70" TopLine="31"/>
       </Position15>
       <Position16>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="50" Column="70" TopLine="31"/>
+        <Caret Line="54" Column="34" TopLine="36"/>
       </Position16>
       <Position17>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="54" Column="34" TopLine="36"/>
+        <Caret Line="46" Column="24" TopLine="32"/>
       </Position17>
       <Position18>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="46" Column="24" TopLine="32"/>
+        <Caret Line="60" Column="95" TopLine="31"/>
       </Position18>
       <Position19>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="60" Column="95" TopLine="31"/>
+        <Caret Line="45" Column="56" TopLine="23"/>
       </Position19>
       <Position20>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="45" Column="56" TopLine="23"/>
+        <Caret Line="136" Column="70" TopLine="125"/>
       </Position20>
       <Position21>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="136" Column="70" TopLine="125"/>
+        <Caret Line="38" Column="8" TopLine="34"/>
       </Position21>
       <Position22>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="38" Column="8" TopLine="34"/>
+        <Caret Line="64" Column="17" TopLine="40"/>
       </Position22>
       <Position23>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="64" Column="17" TopLine="40"/>
+        <Caret Line="71" Column="96" TopLine="50"/>
       </Position23>
       <Position24>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="71" Column="96" TopLine="50"/>
+        <Caret Line="77" Column="11" TopLine="65"/>
       </Position24>
       <Position25>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="77" Column="11" TopLine="65"/>
+        <Caret Line="67" Column="18" TopLine="54"/>
       </Position25>
       <Position26>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="67" Column="18" TopLine="54"/>
+        <Caret Line="79" TopLine="55"/>
       </Position26>
       <Position27>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="79" TopLine="55"/>
+        <Caret Line="73" Column="31" TopLine="57"/>
       </Position27>
       <Position28>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="73" Column="31" TopLine="57"/>
+        <Caret Line="72" Column="21" TopLine="53"/>
       </Position28>
       <Position29>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="72" Column="21" TopLine="53"/>
+        <Caret Line="79" TopLine="55"/>
       </Position29>
       <Position30>
         <Filename Value="multiCalculator.lpr"/>
-        <Caret Line="79" TopLine="55"/>
+        <Caret Line="44" Column="7" TopLine="23"/>
       </Position30>
     </JumpHistory>
     <RunParams>
